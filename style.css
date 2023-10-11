@@ -9,30 +9,56 @@
 
 
 header {
-    background-color: #e8eaee47;
-    width: 100%;
-    position: fixed;
+    background-color: transparent;
+    width: 100%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 60px ;
 }
+.continer00{
+    background: #eaeaea;
 
-.logo{
+}
+.continer{
+    background: #2a4487;
+}
+.logo0{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    color: #04060a;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
     padding: 5px;
-    border-color: 2px 2px solid black;
     border-width: 3px;
     border-radius: 10px;
+}
 
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    border-width: 3px;
+    border-radius: 10px;
 }
 
 .navigation a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 49px;
+
+}
+.navigation0 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #3a3e4a;
     text-decoration: none;
@@ -42,11 +68,19 @@ header {
 
 }
 .logo:hover{
-    color: #615b5b;
+    color: #000;
+    font-size: 1.0em;
+}
+.logo0:hover{
+    color: #000;
     font-size: 1.0em;
 }
 
 .navigation a:hover{
+    color: #000000;
+    font-size: 1.2em;
+}
+.navigation0 a:hover{
     color: #000000;
     font-size: 1.2em;
 }
@@ -202,7 +236,7 @@ hr{
 .title {
     display: flex;
     justify-content: center;
-    color: #110f0f;
+    color: white;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -491,14 +525,12 @@ textarea{
 }
 
 .conte{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     width: 100%;
-    background-color: #0c36a0 ;
-    display: flex;
-    align-items: center;
+    background-color: #0c36a0ee ;
+    
     text-align: center;
     color: rgb(255, 255, 255);
 }
