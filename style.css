@@ -9,56 +9,33 @@
 
 
 header {
-    background-color: transparent;
-    width: 100%; 
+    background-color: #e8eaee00;
+    width: 100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 60px ;
 }
-.continer00{
-    background: #eaeaea;
-
-}
-.continer{
-    background: #2a4487;
-}
-.logo0{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 15px;
-    padding: 5px;
-    border-width: 3px;
-    border-radius: 10px;
+.a{
+    background-color: #eaeaea;
 }
 
 .logo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    background-color: transparent;
-    color: white;
+    color: #04060a;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
     padding: 5px;
+    border-color: 2px 2px solid black;
     border-width: 3px;
     border-radius: 10px;
+
 }
 
 .navigation a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 500;
-    margin-left: 49px;
-
-}
-.navigation0 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #3a3e4a;
     text-decoration: none;
@@ -68,19 +45,11 @@ header {
 
 }
 .logo:hover{
-    color: #000;
-    font-size: 1.0em;
-}
-.logo0:hover{
-    color: #000;
+    color: #615b5b;
     font-size: 1.0em;
 }
 
 .navigation a:hover{
-    color: #000000;
-    font-size: 1.2em;
-}
-.navigation0 a:hover{
     color: #000000;
     font-size: 1.2em;
 }
@@ -105,29 +74,6 @@ section {
 .main {
     width: 100%;
     min-height: 100vh;
-    background: url(photo/01.jpg) no-repeat;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-}
-.pag{
-    width: 100%;
-    min-height: 100vh;
-    background: url(photo/02.jpg) no-repeat;
-    
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-
-}
-.main0 {
-    width: 100%;
-    min-height: 100vh;
     background: url(photo/hero-background.jpg) no-repeat;
     display: flex;
     flex-direction: row;
@@ -138,12 +84,13 @@ section {
     
 }
 
-.main0 h2 {
+
+.main h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
 }
-.main0 h2 {
+.main h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     font-size: 1.4em;
@@ -163,7 +110,7 @@ section {
     padding-bottom: 400px;
 }
 
-.main0 h2 span {
+.main h2 span {
 
     display: inline-block;
     margin-top: 10px;
@@ -173,7 +120,7 @@ section {
     font-weight: 600;
 }
 
-.main0 h3 {
+.main h3 {
     color: #3f3535d3;
     font-size: 0.8em;
     font-weight: 700;
@@ -217,7 +164,7 @@ hr{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 10px;
     margin-bottom: 10px;
-    color: blue;
+    color: #9d9898;
 }
 
 .main-btn:hover {
@@ -236,7 +183,7 @@ hr{
 .title {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #110f0f;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -250,7 +197,7 @@ hr{
 }
 
 .card {
-    background-color: #2004aacf;
+    background-color: #eaeaea;
     width: 18.25em;
     box-shadow: 0 5px 25px rgba(10, 10, 10, 0.336);
     border-radius: 10px;
@@ -280,11 +227,11 @@ hr{
 
 .info {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .info h3{
-    color: #2e2d2db5;
+    color: #fbfafa;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -300,8 +247,8 @@ hr{
 }
 
 .project-card {
-    background-color: #1409eea2;
-    border: 1px solid #fff;
+    background-color: #eaeaea;
+    border: 1px solid #302f2f;
     min-height: 14em;
     width: 18em;
     overflow: hidden;
@@ -342,11 +289,11 @@ hr{
 
 .more-details {
     text-decoration: none;
-    color: #f8f8f8;
+    color: #524e4e;
 }
 
 .more-details:hover {
-    color: #601cfc;
+    color: #8e7d7d;
 }
 
 .contact .icon{
@@ -363,29 +310,36 @@ hr{
 input{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px  ;
-    color: black;
+    color: #000;
     border: 2px solid black;
+    border-radius: 5px;
+    background-color: #c5bcbcbc;
     margin-top: 10px;
-    background: none;
+    padding: 4px;
     width: 300px;
 }
 input::placeholder{
-    color:#000;
+    color:#ffffff;
 }
 textarea{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px  ;
     margin-top: 10px;
-    background: none;
+    border-radius: 5px;
+    background-color: #c5bcbcbc;
+    color: white;
     border-style: none;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     width: 300px;
+    padding: 4px;
     height: 150px;
 
 }
 .total2{
     width: 30%;
+
 }
+
 .total3{
     width: 70%;
 }
@@ -528,17 +482,19 @@ textarea{
     padding-top: 100px;
     padding-bottom: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
     width: 100%;
-    background-color: #0c36a0ee ;
-    
+    background-color: #eaeaea ;
+    display: flex;
+    align-items: center;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .conte .bo{
     background-color:none;
     font-style: none;
     text-decoration: none;
-    color: white;
+    color: #9a9898;
     padding: 2px;
     border-width: 3px;
 }
