@@ -71,6 +71,18 @@ section {
 .main {
     width: 100%;
     min-height: 100vh;
+    background: url(photo/01.jpg) no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.main0 {
+    width: 100%;
+    min-height: 100vh;
     background: url(photo/hero-background.jpg) no-repeat;
     display: flex;
     flex-direction: row;
