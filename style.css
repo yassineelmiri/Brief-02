@@ -80,6 +80,17 @@ section {
     background-attachment: fixed;
     
 }
+.pag{
+    width: 100%;
+    min-height: 100vh;
+    background: url(photo/02.jpg) no-repeat;
+    
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
 .main0 {
     width: 100%;
     min-height: 100vh;
@@ -93,12 +104,12 @@ section {
     
 }
 
-.main h2 {
+.main0 h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
 }
-.main h2 {
+.main0 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     font-size: 1.4em;
@@ -118,7 +129,7 @@ section {
     padding-bottom: 400px;
 }
 
-.main h2 span {
+.main0 h2 span {
 
     display: inline-block;
     margin-top: 10px;
@@ -128,7 +139,7 @@ section {
     font-weight: 600;
 }
 
-.main h3 {
+.main0 h3 {
     color: #3f3535d3;
     font-size: 0.8em;
     font-weight: 700;
