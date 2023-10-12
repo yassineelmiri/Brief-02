@@ -80,8 +80,16 @@ section {
 
 .title {
     text-align: center;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 150px;
+    height: 10px;
+}
+.title3 {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 10px;
 }
 
@@ -533,6 +541,8 @@ textarea {
 .conte {
     padding-top: 100px;
     padding-bottom: 100px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 19px;
     width: 100%;
